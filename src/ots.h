@@ -223,6 +223,7 @@ struct OpenTypeFile {
 #undef F
   }
 
+  uint32_t index;
   uint32_t version;
   uint16_t num_tables;
   uint16_t search_range;
